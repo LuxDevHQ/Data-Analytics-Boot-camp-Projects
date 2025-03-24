@@ -1,3 +1,18 @@
+CREATE TABLE datanalytics.sales_transactions (
+	transaction_id serial4 NOT NULL,
+	customer_id int4 NULL,
+	transaction_date date DEFAULT CURRENT_DATE NULL,
+	product_name varchar(225) NULL,
+	category varchar(225) NULL,
+	quantity int4 NULL,
+	price numeric(10, 2) NULL,
+	total_amount numeric(10, 2) GENERATED ALWAYS AS ((quantity::numeric * price)) STORED NULL,
+	payment_method varchar(225) NULL,
+	CONSTRAINT sales_transactions_pkey PRIMARY KEY (transaction_id),
+	CONSTRAINT sales_transactions_quantity_check CHECK ((quantity > 0))
+);
+
+
 
 INSERT INTO datanalytics.sales_transactions (customer_id, transaction_date, product_name, category, quantity, price, payment_method) VALUES 
 (1344, '2025-03-01', 'Microwave', 'Home Appliances', 2, 363, 'Debit Card'),
