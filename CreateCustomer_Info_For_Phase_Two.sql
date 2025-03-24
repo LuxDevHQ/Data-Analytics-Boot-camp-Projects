@@ -1,5 +1,4 @@
--- Create data table
-
+-- SQL script to create datanalytics.customer_info table for week 10 phase 2 project. 
 CREATE TABLE datanalytics.customer_info (
     customer_id SERIAL PRIMARY KEY,
     first_name VARCHAR(225) NOT NULL,
@@ -11,9 +10,7 @@ CREATE TABLE datanalytics.customer_info (
     registration_date DATE DEFAULT CURRENT_DATE NOT NULL
 );
 
--- Insert data into table:
- 
-
+-- Insert data into datanalytics.customer_info table for week 10 phase 2 project.
 INSERT INTO datanalytics.customer_info (first_name, last_name, email, phone, city, country, registration_date) VALUES ('Brittany', 'Kelly', 'rramos@gmail.com', '096-356-5733', 'West Justin', 'Haiti', '2020-08-17'),
 ('Troy', 'Nunez', 'marialivingston@gordon-williamson.org', '(090)825-8048x6165', 'Melaniehaven', 'Aruba', '2020-09-28'),
 ('Nathan', 'Brown', 'ymartin@wong.biz', '967-899-0301x43080', 'Lake Kimberlyfort', 'Lesotho', '2024-03-03'),
