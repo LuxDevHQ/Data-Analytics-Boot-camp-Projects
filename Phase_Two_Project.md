@@ -1,5 +1,5 @@
 **These questions for the second day of week 10 in the Data Analytics Bootcamp are designed to challenge you to improve your SQL querying, aggregation, window functions, CTEs, and analytical skills.**
-## 🟢 Intermediate-Level Questions (1-10)
+##  **Intermediate-Level Questions.**
 
 1. **Find the total number of transactions per city.**  
    - *Hint: Use `JOIN` with `GROUP BY`.*
@@ -33,7 +33,7 @@
 
 ---
 
-## 🔴 Advanced-Level Questions (11-20)
+##  **Advanced-Level Questions.**
 
 11. **Find the top 3 customers who have spent the most in the last 12 months.**  
     - *Hint: Use `SUM(total_amount)` and filter on `transaction_date`.*
