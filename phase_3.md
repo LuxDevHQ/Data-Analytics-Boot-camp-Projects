@@ -11,8 +11,11 @@
 
 Use the following commands to understand the structure:
 
+""
 sqlSHOW TABLES;
+
 DESCRIBE <table_name>;
+"" 
 
 #### Step 2: Perform the Following Analysis
 
