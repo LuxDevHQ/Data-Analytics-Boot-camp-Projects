@@ -51,7 +51,7 @@ E. Custom Question
 Work in groups of 2–4 students.
 
 Written Report
-Submit a document (Word or PDF) that includes:
+Submit a github repo that includes:
 
 1. A brief explanation for each question
 2. The SQL query used
