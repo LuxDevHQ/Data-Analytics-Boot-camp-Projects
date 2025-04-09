@@ -1,11 +1,11 @@
-Learning Objectives
+### Learning Objectives
 
 Use SQL to extract, aggregate, and analyze data.
 Develop business insights from transactional datasets.
 Present findings in a professional PowerPoint presentation.
 
 
-Step 1: Import and Explore the Database
+#### Step 1: Import and Explore the Database
 
 Import the fashion.sql file into your SQL database (e.g., MySQL, PostgreSQL).
 Use the following commands to understand the structure:
@@ -13,7 +13,7 @@ Use the following commands to understand the structure:
 sqlSHOW TABLES;
 DESCRIBE <table_name>;
 
-Step 2: Perform the Following Analysis
+#### Step 2: Perform the Following Analysis
 A. Sales Analysis
 
 Identify the top 5 selling products.
@@ -40,8 +40,8 @@ E. Custom Question
 
 Formulate one additional interesting question and answer it using SQL.
 
-Deliverables
-Group Work
+### Deliverables
+#### Group Work
 
 Work in groups of 2–4 students.
 
