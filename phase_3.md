@@ -12,7 +12,7 @@
 Use the following commands to understand the structure:
 
 ""
-sqlSHOW TABLES;
+SHOW TABLES;
 
 DESCRIBE <table_name>;
 "" 
