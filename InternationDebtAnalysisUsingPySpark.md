@@ -165,9 +165,3 @@ With this PySpark + PostgreSQL integration, you are now able to:
 - Connect Spark to external PostgreSQL database
 - Run advanced SQL analytics on international debt data
 - Export your insights for reporting or visualization
-
-## **🚀 Optional Enhancements**
-- ✅ Create .py script for automation
-- ✅ Use Jupyter Notebook for interactive exploration
-- ✅ Visualize with matplotlib or seaborn
-- ✅ Schedule jobs using Airflow or Cron for daily reports
