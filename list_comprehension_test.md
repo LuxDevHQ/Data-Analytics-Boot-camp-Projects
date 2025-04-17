@@ -1,4 +1,4 @@
-## 💻 Exercises: Day 13
+## 💻 Exercises: Day 4
 
 1. Filter only negative and zero in the list using list comprehension
    ```py
